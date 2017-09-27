@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1506553440">
+  <project timestamp="1506553440">
+    <package name="PragmaBroadvertising\SolarEdge\Facades">
+      <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/Facades/SolarEdgeFacade.php">
+        <class name="SolarEdge" namespace="PragmaBroadvertising\SolarEdge\Facades">
+          <metrics complexity="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+        </class>
+        <line num="14" type="method" name="getFacadeAccessor" visibility="protected" complexity="1" crap="1" count="6"/>
+        <line num="16" type="stmt" count="6"/>
+        <metrics loc="17" ncloc="12" classes="1" methods="1" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="2" coveredelements="2"/>
+      </file>
+    </package>
+    <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/Interfaces/ApiConnectorInterface.php">
+      <metrics loc="36" ncloc="10" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <package name="PragmaBroadvertising\SolarEdge\Models">
+      <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/Models/SolarEdge.php">
+        <class name="SolarEdge" namespace="PragmaBroadvertising\SolarEdge\Models">
+          <metrics complexity="9" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="57" elements="62" coveredelements="62"/>
+        </class>
+        <line num="13" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="14" type="stmt" count="6"/>
+        <line num="15" type="stmt" count="6"/>
+        <line num="21" type="method" name="details" complexity="1" crap="1" count="1"/>
+        <line num="22" type="stmt" count="1"/>
+        <line num="24" type="stmt" count="1"/>
+        <line num="26" type="stmt" count="1"/>
+        <line num="27" type="stmt" count="1"/>
+        <line num="28" type="stmt" count="1"/>
+        <line num="29" type="stmt" count="1"/>
+        <line num="30" type="stmt" count="1"/>
+        <line num="31" type="stmt" count="1"/>
+        <line num="32" type="stmt" count="1"/>
+        <line num="33" type="stmt" count="1"/>
+        <line num="34" type="stmt" count="1"/>
+        <line num="35" type="stmt" count="1"/>
+        <line num="36" type="stmt" count="1"/>
+        <line num="37" type="stmt" count="1"/>
+        <line num="38" type="stmt" count="1"/>
+        <line num="39" type="stmt" count="1"/>
+        <line num="41" type="stmt" count="1"/>
+        <line num="48" type="method" name="energy" complexity="3" crap="3" count="2"/>
+        <line num="49" type="stmt" count="2"/>
+        <line num="50" type="stmt" count="2"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="59" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="1"/>
+        <line num="61" type="stmt" count="1"/>
+        <line num="62" type="stmt" count="1"/>
+        <line num="63" type="stmt" count="1"/>
+        <line num="64" type="stmt" count="1"/>
+        <line num="67" type="stmt" count="2"/>
+        <line num="74" type="method" name="power" complexity="3" crap="3" count="2"/>
+        <line num="75" type="stmt" count="2"/>
+        <line num="76" type="stmt" count="2"/>
+        <line num="77" type="stmt" count="2"/>
+        <line num="79" type="stmt" count="2"/>
+        <line num="81" type="stmt" count="2"/>
+        <line num="82" type="stmt" count="2"/>
+        <line num="85" type="stmt" count="2"/>
+        <line num="86" type="stmt" count="1"/>
+        <line num="87" type="stmt" count="1"/>
+        <line num="88" type="stmt" count="1"/>
+        <line num="89" type="stmt" count="1"/>
+        <line num="90" type="stmt" count="1"/>
+        <line num="93" type="stmt" count="2"/>
+        <line num="100" type="method" name="overview" complexity="1" crap="1" count="1"/>
+        <line num="101" type="stmt" count="1"/>
+        <line num="103" type="stmt" count="1"/>
+        <line num="105" type="stmt" count="1"/>
+        <line num="106" type="stmt" count="1"/>
+        <line num="107" type="stmt" count="1"/>
+        <line num="108" type="stmt" count="1"/>
+        <line num="109" type="stmt" count="1"/>
+        <line num="110" type="stmt" count="1"/>
+        <line num="111" type="stmt" count="1"/>
+        <line num="112" type="stmt" count="1"/>
+        <line num="113" type="stmt" count="1"/>
+        <line num="115" type="stmt" count="1"/>
+        <metrics loc="117" ncloc="101" classes="1" methods="5" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="57" coveredstatements="57" elements="62" coveredelements="62"/>
+      </file>
+      <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/Models/SolarEdgeClient.php">
+        <class name="SolarEdgeClient" namespace="PragmaBroadvertising\SolarEdge\Models">
+          <metrics complexity="4" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="22" coveredelements="22"/>
+        </class>
+        <line num="16" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="19" type="stmt" count="6"/>
+        <line num="20" type="stmt" count="6"/>
+        <line num="21" type="stmt" count="6"/>
+        <line num="31" type="method" name="getFromSite" complexity="1" crap="1" count="2"/>
+        <line num="32" type="stmt" count="2"/>
+        <line num="33" type="stmt" count="2"/>
+        <line num="48" type="method" name="getFromSiteWithStartAndEnd" complexity="2" crap="2" count="4"/>
+        <line num="49" type="stmt" count="4"/>
+        <line num="51" type="stmt" count="2"/>
+        <line num="52" type="stmt" count="2"/>
+        <line num="53" type="stmt" count="2"/>
+        <line num="54" type="stmt" count="2"/>
+        <line num="55" type="stmt" count="2"/>
+        <line num="56" type="stmt" count="2"/>
+        <line num="60" type="stmt" count="2"/>
+        <line num="61" type="stmt" count="2"/>
+        <line num="62" type="stmt" count="2"/>
+        <line num="63" type="stmt" count="2"/>
+        <line num="64" type="stmt" count="2"/>
+        <line num="67" type="stmt" count="4"/>
+        <metrics loc="68" ncloc="42" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="19" coveredstatements="19" elements="22" coveredelements="22"/>
+      </file>
+    </package>
+    <package name="PragmaBroadvertising\SolarEdge">
+      <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/SolarEdgeServiceProvider.php">
+        <class name="SolarEdgeServiceProvider" namespace="PragmaBroadvertising\SolarEdge">
+          <metrics complexity="3" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
+        </class>
+        <line num="16" type="method" name="boot" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="18" type="stmt" count="6"/>
+        <line num="19" type="stmt" count="6"/>
+        <line num="20" type="stmt" count="6"/>
+        <line num="21" type="stmt" count="6"/>
+        <line num="26" type="method" name="register" visibility="public" complexity="1" crap="1" count="6"/>
+        <line num="28" type="stmt" count="6"/>
+        <line num="29" type="stmt" count="6"/>
+        <line num="32" type="stmt" count="6"/>
+        <line num="34" type="method" name="anonymousFunction:34#138" complexity="1" crap="1" count="6"/>
+        <line num="35" type="stmt" count="6"/>
+        <line num="36" type="stmt" count="6"/>
+        <metrics loc="38" ncloc="30" classes="1" methods="3" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="9" coveredstatements="9" elements="12" coveredelements="12"/>
+      </file>
+    </package>
+    <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/config/main.php">
+      <line num="4" type="stmt" count="6"/>
+      <metrics loc="6" ncloc="6" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="1" coveredstatements="1" elements="1" coveredelements="1"/>
+    </file>
+    <metrics files="6" loc="282" ncloc="201" classes="4" methods="12" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="87" coveredstatements="87" elements="99" coveredelements="99"/>
+  </project>
+</coverage>

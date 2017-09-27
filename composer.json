@@ -1,0 +1,24 @@
+{
+    "name": "pragmabroadvertising/laravel-solaredge-api",
+    "description": "A Laravel package to seamlessly connect to the SolarEdge API. The API provides your application with date from your solar panel network.",
+    "version": "0.1.1",
+    "keywords": ["Pragma", "Laravel", "Solar"],
+    "homepage": "https://pragma.be",
+    "require": {
+        "php": ">=7.0.0",
+        "ixudra/curl": "6.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evert Arnould",
+            "email": "development@pragma.be"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PragmaBroadvertising\\SolarEdge\\": "src/",
+            "PragmaBroadvertising\\SolarEdge\\Tests\\": "tests/"
+        }
+    }
+}
