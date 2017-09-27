@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1506553440">
-  <project timestamp="1506553440">
+<coverage generated="1506554272">
+  <project timestamp="1506554272">
     <package name="PragmaBroadvertising\SolarEdge\Facades">
       <file name="/Users/evert/Sites/pragma/packages/pragmabroadvertising/laravel-solaredge-api/src/Facades/SolarEdgeFacade.php">
         <class name="SolarEdge" namespace="PragmaBroadvertising\SolarEdge\Facades">

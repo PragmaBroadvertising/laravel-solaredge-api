@@ -3,7 +3,6 @@ language: php
 php:
   - 7.0
   - 7.1
-  - hhvm
 
 # This triggers builds to run on the new TravisCI infrastructure.
 # See: http://docs.travis-ci.com/user/workers/container-based-infrastructure/
@@ -13,11 +12,6 @@ sudo: false
 cache:
   directories:
     - $HOME/.composer/cache
-
-env:
-  matrix:
-    - COMPOSER_FLAGS="--prefer-lowest"
-    - COMPOSER_FLAGS=""
 
 before_script:
   - travis_retry composer self-update
